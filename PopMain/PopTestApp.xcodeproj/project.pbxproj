@@ -8,16 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		60C4E34CCD381CF17A66C182 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40DB52942D5CF78AB3656083 /* libPods.a */; };
-		AFD104551C2445B40037990B /* TestPopSpringAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD104521C2445B40037990B /* TestPopSpringAnimationViewController.m */; };
-		AFD104561C2445B40037990B /* TestPopSpringSIzeToMaxVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD104541C2445B40037990B /* TestPopSpringSIzeToMaxVC.m */; };
-		AFF003241C22DB0400799004 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF003231C22DB0400799004 /* main.m */; };
-		AFF003271C22DB0400799004 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF003261C22DB0400799004 /* AppDelegate.m */; };
-		AFF0032A1C22DB0400799004 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF003291C22DB0400799004 /* ViewController.m */; };
-		AFF0032D1C22DB0400799004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF0032B1C22DB0400799004 /* Main.storyboard */; };
-		AFF0032F1C22DB0500799004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF0032E1C22DB0500799004 /* Assets.xcassets */; };
-		AFF003321C22DB0500799004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF003301C22DB0500799004 /* LaunchScreen.storyboard */; };
 		AFF0033D1C22DB0500799004 /* PopTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF0033C1C22DB0500799004 /* PopTestAppTests.m */; };
 		AFF003481C22DB0500799004 /* PopTestAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF003471C22DB0500799004 /* PopTestAppUITests.m */; };
+		AFF3D1A31C2466CE004BB9C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF3D1941C2466CE004BB9C0 /* AppDelegate.m */; };
+		AFF3D1A41C2466CE004BB9C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF3D1951C2466CE004BB9C0 /* Assets.xcassets */; };
+		AFF3D1A51C2466CE004BB9C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF3D1961C2466CE004BB9C0 /* LaunchScreen.storyboard */; };
+		AFF3D1A61C2466CE004BB9C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF3D1981C2466CE004BB9C0 /* Main.storyboard */; };
+		AFF3D1A71C2466CE004BB9C0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFF3D19A1C2466CE004BB9C0 /* Info.plist */; };
+		AFF3D1A81C2466CE004BB9C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF3D19B1C2466CE004BB9C0 /* main.m */; };
+		AFF3D1A91C2466CE004BB9C0 /* TestPopSpringAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF3D19E1C2466CE004BB9C0 /* TestPopSpringAnimationViewController.m */; };
+		AFF3D1AA1C2466CE004BB9C0 /* TestPopSpringSIzeToMaxVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF3D1A01C2466CE004BB9C0 /* TestPopSpringSIzeToMaxVC.m */; };
+		AFF3D1AB1C2466CE004BB9C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF3D1A21C2466CE004BB9C0 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,26 +41,26 @@
 /* Begin PBXFileReference section */
 		40DB52942D5CF78AB3656083 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		849140B3FF127599824AA9E0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		AFD104511C2445B40037990B /* TestPopSpringAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPopSpringAnimationViewController.h; sourceTree = "<group>"; };
-		AFD104521C2445B40037990B /* TestPopSpringAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPopSpringAnimationViewController.m; sourceTree = "<group>"; };
-		AFD104531C2445B40037990B /* TestPopSpringSIzeToMaxVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPopSpringSIzeToMaxVC.h; sourceTree = "<group>"; };
-		AFD104541C2445B40037990B /* TestPopSpringSIzeToMaxVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPopSpringSIzeToMaxVC.m; sourceTree = "<group>"; };
 		AFF0031F1C22DB0400799004 /* PopTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFF003231C22DB0400799004 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AFF003251C22DB0400799004 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AFF003261C22DB0400799004 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AFF003281C22DB0400799004 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AFF003291C22DB0400799004 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AFF0032C1C22DB0400799004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AFF0032E1C22DB0500799004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AFF003311C22DB0500799004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AFF003331C22DB0500799004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFF003381C22DB0500799004 /* PopTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF0033C1C22DB0500799004 /* PopTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopTestAppTests.m; sourceTree = "<group>"; };
 		AFF0033E1C22DB0500799004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFF003431C22DB0500799004 /* PopTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF003471C22DB0500799004 /* PopTestAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopTestAppUITests.m; sourceTree = "<group>"; };
 		AFF003491C22DB0500799004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFF3D1931C2466CE004BB9C0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFF3D1941C2466CE004BB9C0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFF3D1951C2466CE004BB9C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFF3D1971C2466CE004BB9C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFF3D1991C2466CE004BB9C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFF3D19A1C2466CE004BB9C0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFF3D19B1C2466CE004BB9C0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFF3D19D1C2466CE004BB9C0 /* TestPopSpringAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPopSpringAnimationViewController.h; sourceTree = "<group>"; };
+		AFF3D19E1C2466CE004BB9C0 /* TestPopSpringAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPopSpringAnimationViewController.m; sourceTree = "<group>"; };
+		AFF3D19F1C2466CE004BB9C0 /* TestPopSpringSIzeToMaxVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPopSpringSIzeToMaxVC.h; sourceTree = "<group>"; };
+		AFF3D1A01C2466CE004BB9C0 /* TestPopSpringSIzeToMaxVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPopSpringSIzeToMaxVC.m; sourceTree = "<group>"; };
+		AFF3D1A11C2466CE004BB9C0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AFF3D1A21C2466CE004BB9C0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E85DE092C2CA7770720DB78F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,21 +107,10 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		AFD104501C2445B40037990B /* TestPopSpringAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				AFD104511C2445B40037990B /* TestPopSpringAnimationViewController.h */,
-				AFD104521C2445B40037990B /* TestPopSpringAnimationViewController.m */,
-				AFD104531C2445B40037990B /* TestPopSpringSIzeToMaxVC.h */,
-				AFD104541C2445B40037990B /* TestPopSpringSIzeToMaxVC.m */,
-			);
-			path = TestPopSpringAnimation;
-			sourceTree = "<group>";
-		};
 		AFF003161C22DB0400799004 = {
 			isa = PBXGroup;
 			children = (
-				AFF003211C22DB0400799004 /* PopTestApp */,
+				AFF3D1921C2466CE004BB9C0 /* PopTestApp */,
 				AFF0033B1C22DB0500799004 /* PopTestAppTests */,
 				AFF003461C22DB0500799004 /* PopTestAppUITests */,
 				AFF003201C22DB0400799004 /* Products */,
@@ -139,31 +129,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AFF003211C22DB0400799004 /* PopTestApp */ = {
-			isa = PBXGroup;
-			children = (
-				AFD104501C2445B40037990B /* TestPopSpringAnimation */,
-				AFF003251C22DB0400799004 /* AppDelegate.h */,
-				AFF003261C22DB0400799004 /* AppDelegate.m */,
-				AFF003281C22DB0400799004 /* ViewController.h */,
-				AFF003291C22DB0400799004 /* ViewController.m */,
-				AFF0032B1C22DB0400799004 /* Main.storyboard */,
-				AFF0032E1C22DB0500799004 /* Assets.xcassets */,
-				AFF003301C22DB0500799004 /* LaunchScreen.storyboard */,
-				AFF003331C22DB0500799004 /* Info.plist */,
-				AFF003221C22DB0400799004 /* Supporting Files */,
-			);
-			path = PopTestApp;
-			sourceTree = "<group>";
-		};
-		AFF003221C22DB0400799004 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AFF003231C22DB0400799004 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		AFF0033B1C22DB0500799004 /* PopTestAppTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +145,34 @@
 				AFF003491C22DB0500799004 /* Info.plist */,
 			);
 			path = PopTestAppUITests;
+			sourceTree = "<group>";
+		};
+		AFF3D1921C2466CE004BB9C0 /* PopTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				AFF3D1931C2466CE004BB9C0 /* AppDelegate.h */,
+				AFF3D1941C2466CE004BB9C0 /* AppDelegate.m */,
+				AFF3D1951C2466CE004BB9C0 /* Assets.xcassets */,
+				AFF3D1961C2466CE004BB9C0 /* LaunchScreen.storyboard */,
+				AFF3D1981C2466CE004BB9C0 /* Main.storyboard */,
+				AFF3D19A1C2466CE004BB9C0 /* Info.plist */,
+				AFF3D19B1C2466CE004BB9C0 /* main.m */,
+				AFF3D19C1C2466CE004BB9C0 /* TestPopSpringAnimation */,
+				AFF3D1A11C2466CE004BB9C0 /* ViewController.h */,
+				AFF3D1A21C2466CE004BB9C0 /* ViewController.m */,
+			);
+			path = PopTestApp;
+			sourceTree = "<group>";
+		};
+		AFF3D19C1C2466CE004BB9C0 /* TestPopSpringAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				AFF3D19D1C2466CE004BB9C0 /* TestPopSpringAnimationViewController.h */,
+				AFF3D19E1C2466CE004BB9C0 /* TestPopSpringAnimationViewController.m */,
+				AFF3D19F1C2466CE004BB9C0 /* TestPopSpringSIzeToMaxVC.h */,
+				AFF3D1A01C2466CE004BB9C0 /* TestPopSpringSIzeToMaxVC.m */,
+			);
+			path = TestPopSpringAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,9 +280,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFF003321C22DB0500799004 /* LaunchScreen.storyboard in Resources */,
-				AFF0032F1C22DB0500799004 /* Assets.xcassets in Resources */,
-				AFF0032D1C22DB0400799004 /* Main.storyboard in Resources */,
+				AFF3D1A71C2466CE004BB9C0 /* Info.plist in Resources */,
+				AFF3D1A61C2466CE004BB9C0 /* Main.storyboard in Resources */,
+				AFF3D1A41C2466CE004BB9C0 /* Assets.xcassets in Resources */,
+				AFF3D1A51C2466CE004BB9C0 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,11 +341,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFF0032A1C22DB0400799004 /* ViewController.m in Sources */,
-				AFF003271C22DB0400799004 /* AppDelegate.m in Sources */,
-				AFD104551C2445B40037990B /* TestPopSpringAnimationViewController.m in Sources */,
-				AFD104561C2445B40037990B /* TestPopSpringSIzeToMaxVC.m in Sources */,
-				AFF003241C22DB0400799004 /* main.m in Sources */,
+				AFF3D1AA1C2466CE004BB9C0 /* TestPopSpringSIzeToMaxVC.m in Sources */,
+				AFF3D1A91C2466CE004BB9C0 /* TestPopSpringAnimationViewController.m in Sources */,
+				AFF3D1A81C2466CE004BB9C0 /* main.m in Sources */,
+				AFF3D1A31C2466CE004BB9C0 /* AppDelegate.m in Sources */,
+				AFF3D1AB1C2466CE004BB9C0 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,20 +381,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AFF0032B1C22DB0400799004 /* Main.storyboard */ = {
+		AFF3D1961C2466CE004BB9C0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AFF0032C1C22DB0400799004 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AFF003301C22DB0500799004 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AFF003311C22DB0500799004 /* Base */,
+				AFF3D1971C2466CE004BB9C0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AFF3D1981C2466CE004BB9C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFF3D1991C2466CE004BB9C0 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
