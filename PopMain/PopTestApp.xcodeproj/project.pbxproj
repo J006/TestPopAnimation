@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		60C4E34CCD381CF17A66C182 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40DB52942D5CF78AB3656083 /* libPods.a */; };
+		AF3E94981C26BC4F002B1F81 /* ceshibg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF3E94971C26BC4F002B1F81 /* ceshibg.jpg */; };
+		AF3E949B1C26BC8F002B1F81 /* TestPopSpringUICollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E949A1C26BC8F002B1F81 /* TestPopSpringUICollectionView.m */; };
+		AF3E94A11C26C514002B1F81 /* TestPopSpringCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E94A01C26C514002B1F81 /* TestPopSpringCollectionViewCell.m */; };
+		AF3E94A41C26D6DA002B1F81 /* CustomUICollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E94A31C26D6DA002B1F81 /* CustomUICollectionViewFlowLayout.m */; };
 		AFF0033D1C22DB0500799004 /* PopTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF0033C1C22DB0500799004 /* PopTestAppTests.m */; };
 		AFF003481C22DB0500799004 /* PopTestAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF003471C22DB0500799004 /* PopTestAppUITests.m */; };
 		AFF3D1A31C2466CE004BB9C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF3D1941C2466CE004BB9C0 /* AppDelegate.m */; };
@@ -41,6 +45,13 @@
 /* Begin PBXFileReference section */
 		40DB52942D5CF78AB3656083 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		849140B3FF127599824AA9E0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AF3E94971C26BC4F002B1F81 /* ceshibg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ceshibg.jpg; sourceTree = "<group>"; };
+		AF3E94991C26BC8F002B1F81 /* TestPopSpringUICollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPopSpringUICollectionView.h; sourceTree = "<group>"; };
+		AF3E949A1C26BC8F002B1F81 /* TestPopSpringUICollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPopSpringUICollectionView.m; sourceTree = "<group>"; };
+		AF3E949F1C26C514002B1F81 /* TestPopSpringCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPopSpringCollectionViewCell.h; sourceTree = "<group>"; };
+		AF3E94A01C26C514002B1F81 /* TestPopSpringCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPopSpringCollectionViewCell.m; sourceTree = "<group>"; };
+		AF3E94A21C26D6DA002B1F81 /* CustomUICollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUICollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		AF3E94A31C26D6DA002B1F81 /* CustomUICollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUICollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		AFF0031F1C22DB0400799004 /* PopTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF003381C22DB0500799004 /* PopTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF0033C1C22DB0500799004 /* PopTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopTestAppTests.m; sourceTree = "<group>"; };
@@ -107,9 +118,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		AF3E94961C26BC4F002B1F81 /* ImageSource */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E94971C26BC4F002B1F81 /* ceshibg.jpg */,
+			);
+			name = ImageSource;
+			path = PopTestApp/ImageSource;
+			sourceTree = "<group>";
+		};
 		AFF003161C22DB0400799004 = {
 			isa = PBXGroup;
 			children = (
+				AF3E94961C26BC4F002B1F81 /* ImageSource */,
 				AFF3D1921C2466CE004BB9C0 /* PopTestApp */,
 				AFF0033B1C22DB0500799004 /* PopTestAppTests */,
 				AFF003461C22DB0500799004 /* PopTestAppUITests */,
@@ -150,6 +171,7 @@
 		AFF3D1921C2466CE004BB9C0 /* PopTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				AFF3D19C1C2466CE004BB9C0 /* TestPopSpringAnimation */,
 				AFF3D1931C2466CE004BB9C0 /* AppDelegate.h */,
 				AFF3D1941C2466CE004BB9C0 /* AppDelegate.m */,
 				AFF3D1951C2466CE004BB9C0 /* Assets.xcassets */,
@@ -157,7 +179,6 @@
 				AFF3D1981C2466CE004BB9C0 /* Main.storyboard */,
 				AFF3D19A1C2466CE004BB9C0 /* Info.plist */,
 				AFF3D19B1C2466CE004BB9C0 /* main.m */,
-				AFF3D19C1C2466CE004BB9C0 /* TestPopSpringAnimation */,
 				AFF3D1A11C2466CE004BB9C0 /* ViewController.h */,
 				AFF3D1A21C2466CE004BB9C0 /* ViewController.m */,
 			);
@@ -171,6 +192,12 @@
 				AFF3D19E1C2466CE004BB9C0 /* TestPopSpringAnimationViewController.m */,
 				AFF3D19F1C2466CE004BB9C0 /* TestPopSpringSIzeToMaxVC.h */,
 				AFF3D1A01C2466CE004BB9C0 /* TestPopSpringSIzeToMaxVC.m */,
+				AF3E94991C26BC8F002B1F81 /* TestPopSpringUICollectionView.h */,
+				AF3E949A1C26BC8F002B1F81 /* TestPopSpringUICollectionView.m */,
+				AF3E949F1C26C514002B1F81 /* TestPopSpringCollectionViewCell.h */,
+				AF3E94A01C26C514002B1F81 /* TestPopSpringCollectionViewCell.m */,
+				AF3E94A21C26D6DA002B1F81 /* CustomUICollectionViewFlowLayout.h */,
+				AF3E94A31C26D6DA002B1F81 /* CustomUICollectionViewFlowLayout.m */,
 			);
 			path = TestPopSpringAnimation;
 			sourceTree = "<group>";
@@ -281,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFF3D1A71C2466CE004BB9C0 /* Info.plist in Resources */,
+				AF3E94981C26BC4F002B1F81 /* ceshibg.jpg in Resources */,
 				AFF3D1A61C2466CE004BB9C0 /* Main.storyboard in Resources */,
 				AFF3D1A41C2466CE004BB9C0 /* Assets.xcassets in Resources */,
 				AFF3D1A51C2466CE004BB9C0 /* LaunchScreen.storyboard in Resources */,
@@ -346,6 +374,9 @@
 				AFF3D1A81C2466CE004BB9C0 /* main.m in Sources */,
 				AFF3D1A31C2466CE004BB9C0 /* AppDelegate.m in Sources */,
 				AFF3D1AB1C2466CE004BB9C0 /* ViewController.m in Sources */,
+				AF3E94A11C26C514002B1F81 /* TestPopSpringCollectionViewCell.m in Sources */,
+				AF3E949B1C26BC8F002B1F81 /* TestPopSpringUICollectionView.m in Sources */,
+				AF3E94A41C26D6DA002B1F81 /* CustomUICollectionViewFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

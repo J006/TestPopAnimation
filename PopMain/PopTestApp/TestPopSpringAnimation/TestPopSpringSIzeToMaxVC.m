@@ -20,8 +20,8 @@
     [super viewDidLoad];
   [self.view  setBackgroundColor:[UIColor whiteColor]];
   self.title  = @"TestPopSpringAnimation";
-  UIBarButtonItem *rightBarSizeToMaxItem = [[UIBarButtonItem alloc] initWithTitle:@"Max" style:UIBarButtonItemStylePlain target:self action:@selector(maxSizeBasicPopAnimation)];
-  UIBarButtonItem *rightBarSizeToMinItem = [[UIBarButtonItem alloc] initWithTitle:@"Min" style:UIBarButtonItemStylePlain target:self action:@selector(minSizeBasicPopAnimation)];
+  UIBarButtonItem *rightBarSizeToMaxItem = [[UIBarButtonItem alloc] initWithTitle:@"Max" style:UIBarButtonItemStylePlain target:self action:@selector(maxSizePopSpringAnimation)];
+  UIBarButtonItem *rightBarSizeToMinItem = [[UIBarButtonItem alloc] initWithTitle:@"Min" style:UIBarButtonItemStylePlain target:self action:@selector(minSizePopSpringAnimation)];
   NSArray<UIBarButtonItem*> *bardArray  = @[rightBarSizeToMaxItem,rightBarSizeToMinItem];
   self.navigationItem.rightBarButtonItems = bardArray;
   [self.view    addSubview:self.testRedBlockView];
@@ -39,7 +39,7 @@
   NSInteger height = CGRectGetHeight(self.view.bounds);
   NSInteger width = CGRectGetWidth(self.view.bounds);
   popSpringAnimation.toValue  = [NSValue  valueWithCGRect:CGRectMake(0, 64, width, height-64)];
-  popSpringAnimation.springBounciness = 0;
+  popSpringAnimation.springBounciness = 4;
   popSpringAnimation.springSpeed  = 1;
   popSpringAnimation.animationDidStartBlock = ^(POPAnimation *anim)
   {
@@ -63,7 +63,7 @@
   NSInteger height = 50;
   NSInteger width = 50;
   popSpringAnimation.toValue  = [NSValue  valueWithCGRect:CGRectMake(self.view.center.x-25, self.view.center.y-25, width, height)];
-  popSpringAnimation.springBounciness = 0;
+  popSpringAnimation.springBounciness = 4;
   popSpringAnimation.springSpeed  = 1;
   popSpringAnimation.animationDidStartBlock = ^(POPAnimation *anim)
   {
